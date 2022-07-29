@@ -1,3 +1,5 @@
 *.exe
 \bw-output
 \build
+\.scannerwork
+\.vscode

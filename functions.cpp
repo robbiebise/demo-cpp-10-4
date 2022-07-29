@@ -17,3 +17,8 @@ double getAverage(int arr[], int size) {
 void alterArray(char arr[]){
     void *pos = memchr(arr, '@', 42);
 }
+
+void moveVal(char *src) {
+  char dest[256];
+  strncpy(dest, src, sizeof(dest));
+}
