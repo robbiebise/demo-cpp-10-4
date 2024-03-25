@@ -9,5 +9,10 @@ int main()
     char array[10];
     void *pos = memchr(array, '@', 42);
     std::cout << avg;
+    constexpr auto maxSize = 3;
+    auto myData[maxSize] = {1, 2, 3};
+    for(const auto i = 0; i < maxSize; ++i) {
+      myData[i] = i;
+    }
 }
 
